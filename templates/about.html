@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block aboutactive %}active{% endblock aboutactive %}
+{% block title %}About{% endblock title %}
+
+{% block body %}
+
+<div style="overflow-y: scroll; max-height: 80vh;">
+    <div class="container-fluid mt-3">
+    <div class="row">
+        <div class="col-lg-6">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is Mikaela Y. Yumang, and I am a passionate computer engineer with a love for programming.
+                I am 19 years old, studying at Holy Angel University of B.S. Computer Engineering in Angeles City, Pampanga.
+                Whether it is a different language, such as C++, Python, etc., I am always eager to learn and
+                explore new technologies.
+            </p>
+            <p>
+                In my free time, I enjoy reading to different books regarding programming languages for beginners. I also
+                find different videos regarding Website Design interesting. I am contented to be part of ICpEP.se HAU Chapter as I meet different seniors willing to share their insights regarding the matter.
+            </p>
+        </div>
+        <div class="col-lg-6">
+           <img src="{% static 'images/mika2x2.png' %}" alt="Mikaela Yumang" class="img-fluid rounded-circle" width="250">
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+        <section id="education" class="py-5">
+                <div class="container">
+                    <h2 class="text-center">Educational Background</h2>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Elementary Education</h5>
+                                    <p class="card-text">Holy Angel University</p>
+                                    <p class="card-text">Graduation Year: 2016</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Junior and Senior High School</h5>
+                                    <p class="card-text">Holy Angel University</p>
+                                    <p class="card-text">Graduation Year: 2020, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bachelor of Science in Computer Engineering</h5>
+                                    <p class="card-text">Holy Angel University</p>
+                                    <p class="card-text">Graduation Year: 2026</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </div>
+</div>
+</div>
+
+
+{%  endblock body %}

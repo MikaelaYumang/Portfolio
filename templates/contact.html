@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block contactactive %}active{% endblock contactactive %}
+{% block title %}Contact{% endblock title %}
+
+
+{% block body %}
+
+    <div style="overflow-y: scroll; max-height: 80vh;">
+    <div class="container mt-5">
+            <h2>Contact Page</h2>
+            <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Information</h2>
+        <h3>Address:</h3>
+        <p>Lot 8, Blk. 216, Phase 2, 2nd Street, Metrogate Subdivision, Capaya II, Angeles City, Pampanga</p>
+        <p>2009</p>
+        <p>Philippines</p>
+
+        <h3>Email:</h3>
+        <p><a href="mailto:ellayumang01@gmail.com">ellayumang01@gmail.com</a></p>
+        <p><a href="mailto:myyumang@student.hau.edu.ph">myyumang@student.hau.edu.ph</a></p>
+
+        <h3>Phone:</h3>
+        <p>0921-844-5931</p>
+
+        <h3>Social Media:</h3>
+        <p>Connect with the programmer on social media:</p>
+        <ul>
+            <li><a href="https://www.facebook.com/ella.yumang">Facebook</a></li>
+        </ul>
+    </div>
+    </div>
+
+
+{%  endblock body %}
